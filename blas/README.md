@@ -34,11 +34,12 @@ Exemplo de código usando precisão simples, da subrotina de multiplicar um esca
 ~~~fortran
 program blas_nivel_1
   implicit none
-  real, external :: SNRM2
 
   integer, parameter :: tamanho = 3
   real(4) :: escalar_a, norma_x
   real(4), dimension(tamanho) :: vetor_x
+  
+  real, external :: SNRM2
   
   escalar_a = 2
   vetor_x = 1.0
@@ -72,11 +73,21 @@ SNRM2(N, SX, INCX)
 Norma x:   3.46410155
 ~~~
 
-Segue uma tabela das funções nível 1:
+Segue uma tabela com algumas das funções de nível 1:
 
 Função|      Paramêtros      | Operação | Prefixos 
 :----:|:--------------------:|:--------:|:--------:
-xDOT  | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
-xDOTU | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | C, Z
-xNRM2 | N, X, INCX           | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
-xDOT  | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
+xDOT  | N, X, INCX, Y, INCY  | Protudo Escalar | S, D, DS
+xNRM2 | N, X, INCX           | Norma           | S, D, SC, DZ
+xASUM | N, X, INCX           | Soma das componentes | S, D, SC, DZ
+IxAMAX| N, X, INCX           | Maior componente | S, D, C, Z
+
+
+Segue uma tabela com algumas das subrotinas de nível 1:
+
+Função|      Paramêtros      | Operação | Prefixos 
+:----:|:--------------------:|:--------:|:--------:
+xSWAP | N,    X, INCX, Y, INCY  | X, Y = Y, X | S, D, C, Z
+xSCAL | N, A, X, INCX           | X = A*X     | S, D, C, Z
+xCOPY | N, X, INCX, Y, INCY     | Y = X       | S, D, C, Z
+xAXPY | N, A, X, INCX, Y, INCY  | Y = A*X +Y  | S, D, C, Z
