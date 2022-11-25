@@ -32,10 +32,12 @@ Z       | complexo\*16 | Dupla
 Exemplo de código usando precisão simples, da subrotina de multiplicar um escalar com um vetor:
 
 ~~~fortran
-program escalar_vetor
+program blas_nivel_1
   implicit none
+  real, external :: SNRM2
+
   integer, parameter :: tamanho = 3
-  real(4) :: escalar_a
+  real(4) :: escalar_a, norma_x
   real(4), dimension(tamanho) :: vetor_x
   
   escalar_a = 2
@@ -49,13 +51,32 @@ program escalar_vetor
   print *, 'SSCAL(N, SA, SX, INCX)'
   call SSCAL(tamanho, escalar_a, vetor_x, 1)
   print *, 'Vetor x:', vetor_x
+  
+  print *, ''
 
-end program escalar_vetor
+  print *, 'SNRM2(N, SX, INCX)'
+  norma_x = SNRM2(tamanho, vetor_x, 1)
+  print *, 'Norma x:', norma_x
+
+end program blas_nivel_1
 ~~~
+Saída:
 ~~~
 Escalar a:   2.00000000    
 Vetor x:   1.00000000       1.00000000       1.00000000    
 
 SSCAL(N, SA, SX, INCX)
-Vetor x:   2.00000000       2.00000000       2.00000000
+Vetor x:   2.00000000       2.00000000       2.00000000    
+
+SNRM2(N, SX, INCX)
+Norma x:   3.46410155
 ~~~
+
+Segue uma tabela das funções nível 1:
+
+Função|      Paramêtros      | Operação | Prefixos 
+:----:|:--------------------:|:--------:|:--------:
+xDOT  | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
+xDOTU | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | C, Z
+xNRM2 | N, X, INCX           | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
+xDOT  | N, X, INCX, Y, INCY  | Protudo Escalar = $X^{T} \cdot Y$ | S, D, DS
