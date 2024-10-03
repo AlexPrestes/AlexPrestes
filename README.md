@@ -36,4 +36,3 @@ Bacharel em Física pela USP, com foco em machine learning, modelagem computacio
 
 - [Autómato celular](https://github.com/AlexPrestes/cellular-automata)
 - [Conjunto de Mandelbrot](https://github.com/AlexPrestes/mandelbrot)
-- [TCC: Analise de Fundos de Investimento com Grafo de Visibilidade](https://github.com/AlexPrestes/analise-fundos-imobiliarios-tcc)
