@@ -3,7 +3,7 @@
 <a href="https://www.linkedin.com/in/alexsprestes/">
   <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" height="25"/>
 </a>
-<a href="mailto://alex.prestes@outlook.com.br">
+<a href="mailto:alex.prestes@outlook.com.br">
   <img src="https://img.shields.io/badge/-Outlook-purple?style=flat-square&logo=mailboxdotorg&logoColor=white" alt="E-mail" height="25"/>
 </a>
 <a href="https://github.com/AlexPrestes/AlexPrestes/blob/main/curriculo.pdf">
