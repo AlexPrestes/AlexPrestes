@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" height="25"/>
 </a>
 <a href="mailto://alex.prestes@outlook.com.br">
-  <img src="https://img.shields.io/badge/-Outlook-purple?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="E-mail" height="25"/>
+  <img src="https://img.shields.io/badge/-Outlook-purple?style=flat-square&logo=mailboxdotorg&logoColor=white" alt="E-mail" height="25"/>
 </a>
 <a href="https://github.com/AlexPrestes/AlexPrestes/blob/main/curriculo.pdf">
   <img src="https://img.shields.io/badge/-Curriculo-blue?color=%23238636&style=flat-square&logo=googledocs&logoColor=white" alt="Github" height="25" />
