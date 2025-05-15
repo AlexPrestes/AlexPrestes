@@ -13,7 +13,8 @@
 ## Bem vindos! Fiquem à vontade para explorar o meu perfil
 
 * Cientista de Dados
-* Física - USP
+* MBA Data Science e Analytics - USP/Esalq (Em Andamento)
+* Física - USP/IFSC
 
 Bacharel em Física pela USP, com foco em machine learning, modelagem computacional e programação de alto desempenho. Atualmente buscando emprego como cientista de dados.
 
