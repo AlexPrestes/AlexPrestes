@@ -35,6 +35,6 @@ Bacharel em Física pela USP, com foco em machine learning, modelagem computacio
 
 ## Projetos
 
-* [FII Dashboard](https://github.com/AlexPrestes/fii-dashboard)
+* [PO Translator](https://github.com/AlexPrestes/po-translator)
 * [Autómato celular](https://github.com/AlexPrestes/cellular-automata)
 * [Conjunto de Mandelbrot](https://github.com/AlexPrestes/mandelbrot)
