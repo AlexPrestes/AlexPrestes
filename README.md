@@ -35,6 +35,6 @@ Bacharel em Física pela USP, com foco em machine learning, modelagem computacio
 
 ## Projetos
 
+* [ForgeFlux (Em Construção)](https://github.com/AlexPrestes/forgeflux)
+* [Kenshi Translator Toolkit](https://github.com/AlexPrestes/kenshi-translator-toolkit)
 * [PO Translator](https://github.com/AlexPrestes/po-translator)
-* [Autómato celular](https://github.com/AlexPrestes/cellular-automata)
-* [Conjunto de Mandelbrot](https://github.com/AlexPrestes/mandelbrot)
