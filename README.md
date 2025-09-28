@@ -1,40 +1,55 @@
 # Alex Prestes
- <!-- links importantes e badge -->
+
 <a href="https://www.linkedin.com/in/alexsprestes/">
-  <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" height="25"/>
+  <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" height="25"/>
 </a>
 <a href="mailto:alex.prestes@outlook.com.br">
-  <img src="https://img.shields.io/badge/-Outlook-purple?style=flat-square&logo=mailboxdotorg&logoColor=white" alt="E-mail" height="25"/>
+  <img src="https://img.shields.io/badge/-E--mail-purple?style=flat-square&logo=gmail&logoColor=white" height="25"/>
 </a>
 <a href="https://github.com/AlexPrestes/AlexPrestes/blob/main/curriculo.pdf">
-  <img src="https://img.shields.io/badge/-Curriculo-blue?color=%23238636&style=flat-square&logo=googledocs&logoColor=white" alt="Github" height="25" />
+  <img src="https://img.shields.io/badge/-Currículo-green?style=flat-square&logo=googledocs&logoColor=white" height="25" />
 </a>
 
-## Bem vindos! Fiquem à vontade para explorar o meu perfil
+---
 
-* Cientista de Dados
-* MBA Data Science e Analytics - USP/Esalq (Em Andamento)
-* Física - USP/IFSC
+## 👋 Bem-vindo(a)!
 
-Bacharel em Física pela USP, com foco em machine learning, modelagem computacional e programação de alto desempenho. Atualmente buscando emprego como cientista de dados.
+**Cientista de Dados | Analista de Dados | Engenheiro de Dados**  
 
-## Experiência com
+Profissional de dados com experiência em **estatística aplicada, machine learning, automação de processos e integração de sistemas (ERP SAP Business One)**.  
+Atuo desde a exploração e preparação de dados até a construção de modelos preditivos e pipelines modulares para apoio à decisão.  
 
-* **Machine Learning**: Elaboração de modelos preditivos para realizar tarefas de classificação, regressão, clusterização e análise de séries temporais;
-* **Business Intelligence**: Desenvolvimento de painéis interativos e indicadores-chave de desempenho (KPIs);
-* **Analytics**: Extração, limpeza, análise exploratória e modelagem de dados;
-* **Banco de Dados**: Elaboração e otimização de consultas em sistemas de bancos de dados.
-* **Computação de Alto Desempenho**: Programação paralela, CUDA, OpenCL, MPI;
+MBA em **Data Science & Analytics (USP/ESALQ, em andamento)** e **Bacharel em Física (USP/IFSC)**.
 
-## Ferramentas
+---
 
-* **Linguagens de programação**: Python, R, C/C++, Fortran;
-* **Bibliotecas de estatística e mineração de dados**: numpy, scipy, pandas, scikit-learn;
-* **Softwares de visualização de dados**: Excel, Power BI;
-* **Banco de dados**: Microsoft SQL Server, MySQL, MongoDB, SQLite;
+## 🚀 Experiência com
+- **Machine Learning**: classificação, regressão, clusterização e séries temporais.  
+- **Business Intelligence**: dashboards e KPIs em Power BI e Excel.  
+- **Automação & Integração**: processos em Python, SQL, VBA e Shell Script.  
+- **Bancos de Dados**: SQL Server, MySQL, MongoDB, SQLite.  
+- **Computação Científica & HPC**: programação paralela (CUDA, OpenCL, MPI).  
 
-## Projetos
+---
 
-* [ForgeFlux (Em Construção)](https://github.com/AlexPrestes/forgeflux)
-* [Kenshi Translator Toolkit](https://github.com/AlexPrestes/kenshi-translator-toolkit)
-* [PO Translator](https://github.com/AlexPrestes/po-translator)
+## 🛠️ Competências Técnicas
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white) 
+![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![SAP](https://img.shields.io/badge/-SAP-0FAAFF?logo=sap&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)
+
+---
+
+## 📌 Projetos em Destaque
+
+- [**Kenshi Translator Toolkit (2025)**](https://github.com/AlexPrestes/kenshi-translator-toolkit)  
+  Biblioteca Python publicada no **PyPI**, com engenharia reversa e serialização binária. Facilita extração e reinserção de textos em arquivos `.mod`.
+
+- [**gaco**](https://github.com/AlexPrestes/gaco)  
+  Algoritmo de otimização inspirado em colônia de formigas, **altamente paralelizado**, utilizado para simulação de cenários logísticos e estudo de otimização de distribuição.
+
+- [**ForgeFlux (Em desenvolvimento)**](https://github.com/AlexPrestes/forgeflux)  
+  Construtor de **pipelines modulares**, com foco em desenvolvimento de plugins e módulos. Estruturas de dados fortemente tipadas garantem simplicidade e escalabilidade do sistema.
+
+---
