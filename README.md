@@ -23,17 +23,6 @@ MBA em **Data Science & Analytics (USP/ESALQ, em andamento)** e **Bacharel em F�
 
 ---
 
-## 👋 Bem-vindo(a)!
-
-**Cientista de Dados | Analista de Dados | Engenheiro de Dados**  
-
-Profissional de dados com experiência em estatística aplicada, machine learning, automação de processos e integração de sistemas (ERP SAP Business One).  
-Atuo desde a exploração e preparação de dados até a construção de modelos preditivos e pipelines modulares para apoio à decisão.  
-
-MBA em **Data Science & Analytics (USP/ESALQ, em andamento)** e **Bacharel em Física (USP/IFSC)**.
-
----
-
 ## 🚀 Experiência e Competências
 
 **Machine Learning:** classificação, regressão, clusterização, séries temporais.  
