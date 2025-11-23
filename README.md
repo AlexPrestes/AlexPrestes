@@ -1,48 +1,63 @@
 # Alex Prestes
 
 <a href="https://www.linkedin.com/in/alexsprestes/">
-<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="LinkedIn" height="25"/>
+<img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" height="25"/>
 </a>
 <a href="mailto:alex.prestes@outlook.com.br">
-<img src="https://img.shields.io/badge/-Outlook-purple?style=flat-square&logo=mailboxdotorg&logoColor=white" alt="E-mail" height="25"/>
+<img src="https://img.shields.io/badge/-E--mail-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" height="25"/>
 </a>
-<a href="https://github.com/AlexPrestes/AlexPrestes/blob/main/curriculo.pdf">
-<img src="https://img.shields.io/badge/-Curriculo-blue?color=%23238636&style=flat-square&logo=googledocs&logoColor=white" alt="Github" height="25" />
+<a href="https://github.com/AlexPrestes/AlexPrestes/blob/main/Alex_Prestes_CV.pdf">
+<img src="https://img.shields.io/badge/-Currículo-238636?style=flat-square&logo=googledocs&logoColor=white" height="25"/>
 </a>
 
 ---
 
-## 👋 Bem-vindo(a)!
+## 👋 Olá!
 
-**Cientista de Dados | Analista de Dados | Engenheiro de Dados**  
+Sou **Machine Learning Engineer (Jr)** e **Cientista de Dados**, com formação em **Física (USP)** e MBA em **Data Science & Analytics (USP/ESALQ, em andamento)**.
 
-Profissional de dados com experiência em **estatística aplicada, machine learning, automação de processos e integração de sistemas (ERP SAP Business One)**.  
-Atuo desde a exploração e preparação de dados até a construção de modelos preditivos e pipelines modulares para apoio à decisão.  
+Atuo no desenvolvimento de soluções de dados de ponta a ponta —  
+desde a engenharia e preparação até **modelagem estatística, ML** e **automação de pipelines**.  
 
-MBA em **Data Science & Analytics (USP/ESALQ, em andamento)** e **Bacharel em Física (USP/IFSC)**.
+Também possuo forte base em **computação científica**, grafos, parsing binário e engenharia de software em Python.
 
 ---
 
-## 🚀 Experiência e Competências
+## 🚀 Competências
 
-**Machine Learning:** classificação, regressão, clusterização, séries temporais.  
-**Business Intelligence:** dashboards e KPIs em Power BI e Excel.  
-**Automação e Integração:** Python, SQL, VBA, Shell Script.  
-**Bancos de Dados:** SQL Server, MySQL, MongoDB, SQLite.  
-**Computação Científica & HPC:** programação paralela (CUDA, OpenCL, MPI).  
-**Arquitetura de Pipelines:** desenvolvimento modular, design de plugins e estrutura de dados tipada.
+**Machine Learning:**  
+Classificação, regressão, séries temporais, Feature Engineering, validação cruzada, métricas.
+
+**Python & Engenharia de Software:**  
+Pandas, NumPy, Scikit-learn, PyTorch, NetworkX, struct, dataclasses, modularidade, CLI tools.
+
+**Dados & Automação:**  
+SQL, Power BI, Excel/VBA, Shell Script, integração de sistemas (SAP B1).
+
+**DevOps & Infra:**  
+Git, Docker, Docker Compose, GitHub Actions, publicação em PyPI.
+
+**Computação Científica:**  
+Simulações numéricas (PDEs), grafos, Julia, paralelismo, algoritmos.
 
 ---
 
 ## 📌 Projetos em Destaque
 
-- [**Kenshi Translator Toolkit (2025)**](https://github.com/AlexPrestes/kenshi-translator-toolkit)  
-  Biblioteca Python publicada no PyPI para extração e reinserção de textos em arquivos `.mod`. Demonstra habilidades em desenvolvimento de ferramentas e engenharia de software.
+### 🔹 [Kenshi Translator Toolkit (2025)](https://github.com/AlexPrestes/kenshi-translator-toolkit)
+Biblioteca Python publicada no **PyPI** para leitura, edição e reconstrução de arquivos `.mod` (engine do jogo Kenshi).  
+Trabalha com **parsing binário, encoder/decoder estruturado, arquitetura limpa e empacotamento**.
 
-- [**gaco**](https://github.com/AlexPrestes/gaco)  
-  Algoritmo de otimização inspirado em colônia de formigas, altamente paralelizado, utilizado para simulação de cenários logísticos e otimização de distribuição.
+### 🔹 [GACO – Ant Colony Optimization](https://github.com/AlexPrestes/gaco)
+Algoritmo de **otimização via colônia de formigas**, com foco em paralelização e simulação de cenários logísticos.
 
-- [**ForgeFlux (Em desenvolvimento)**](https://github.com/AlexPrestes/forgeflux)  
-  Construtor de pipelines modulares com foco em plugins e módulos. Estruturas de dados fortemente tipadas garantem simplicidade e escalabilidade do sistema.
+### 🔹 [ForgeFlux (em desenvolvimento)](https://github.com/AlexPrestes/forgeflux)
+Framework de **pipelines modulares** baseado em plugins, com estruturas fortemente tipadas e foco em escalabilidade.
 
 ---
+
+## 📚 Sobre mim
+Apaixonado por **modelos matemáticos**, **séries temporais**, **grafos**, **otimização** e **engenharia de software**.  
+Gosto de construir soluções claras, modulares e interpretáveis — sempre unindo computação científica, estatística e ML.
+
+Se quiser trocar ideias sobre ciência, dados ou algoritmos, me chame! 🚀

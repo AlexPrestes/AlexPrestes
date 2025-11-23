@@ -2,13 +2,13 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[default]{opensans}
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.5in]{geometry}
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{parskip}
 
 \hypersetup{
-    colorlinks=false,
+    colorlinks=true,
     urlcolor=blue,
 }
 
@@ -19,15 +19,17 @@
 % --- Header ---
 \begin{center}
     {\Huge \textbf{ALEX SOARES PRESTES}} \\[0.2cm]
-    {\large Cientista de Dados | Analista de Dados | Engenheiro de Dados} \\[0.2cm]
+    {\large Machine Learning Engineer (Junior) • Data Scientist • Computação Científica} \\[0.2cm]
     {\small Bauru, SP | \href{mailto:alex.prestes@outlook.com.br}{alex.prestes@outlook.com.br} | (14) 99728-8656} \\
     {\small \href{https://linkedin.com/in/alexsprestes}{linkedin.com/in/alexsprestes} | \href{https://github.com/AlexPrestes}{github.com/AlexPrestes}}
 \end{center}
 
 % --- Resumo ---
 \section*{Resumo Profissional}
-Profissional de dados com experiência em \textbf{estatística aplicada}, \textbf{machine learning supervisionado e não supervisionado}, \textbf{automação de processos}, \textbf{ERP (SAP Business One)} e \textbf{análise de grandes volumes de dados}. 
-Formado em \textbf{Física (USP)} e cursando \textbf{MBA em Data Science \& Analytics (USP/ESALQ)}, atuo na construção de soluções que conectam teoria e prática, desde a exploração de dados até a implementação de modelos preditivos e relatórios para tomada de decisão.
+Profissional de dados com experiência em estatística aplicada, modelagem de machine learning, automação de processos e integração com ERP (SAP Business One). 
+Formado em Física (USP), com base sólida em modelagem matemática, computação científica e análise de séries temporais. 
+Atualmente cursando MBA em Data Science \& Analytics (USP/ESALQ), atuo na construção de soluções de ponta a ponta — da exploração de dados à implementação de modelos e relatórios analíticos.
+
 
 % --- Experiência ---
 \section*{Experiência Profissional}
@@ -41,6 +43,7 @@ Formado em \textbf{Física (USP)} e cursando \textbf{MBA em Data Science \& Anal
 
 \subsection*{Suporte Técnico N1 – Smart Computadores (2015 – 2016)}
 \begin{itemize}
+\item Atuação durante transição profissional antes da entrada na USP.
 \item Implementação de solução padronizada de \textbf{backup em Linux (Live USB + rsync)}, aumentando a confiabilidade dos dados e eliminando falhas recorrentes.
 \item Execução de \textbf{manutenções preventivas}, instalação de softwares e documentação técnica de sistemas corporativos.
 \end{itemize}
@@ -61,25 +64,67 @@ Formado em \textbf{Física (USP)} e cursando \textbf{MBA em Data Science \& Anal
 
 % --- Formação ---
 \section*{Formação Acadêmica}
-\textbf{MBA em Data Science \& Analytics} — USP/ESALQ \hfill (em andamento, conclusão prevista 2026) \\
+
+\textbf{MBA em Data Science \& Analytics} — USP/ESALQ \hfill 2024–2026 (em andamento) \\
+
 \textbf{Bacharelado em Física} — USP/IFSC \hfill 2017–2023 \\
-TCC: Análise de Fundos Imobiliários utilizando \textbf{grafos de visibilidade e Random Forest} para classificação e métricas aplicáveis a sistemas de recomendação.
+TCC: Análise de séries temporais financeiras por meio de \textbf{grafos de visibilidade}, com foco em extração de métricas topológicas e modelagem em \textbf{Random Forest}.
 
 % --- Projetos ---
 \section*{Projetos Relevantes}
-\textbf{Kenshi Translator Toolkit (2025)} — Biblioteca Python publicada no \textbf{PyPI}, com engenharia reversa e serialização binária. \\
-\textbf{TCC em Machine Learning (2023–2024)} — Classificação de Fundos Imobiliários com séries temporais, grafos de visibilidade e Random Forest; extração de métricas aplicáveis em classificação e recomendação. \\
-\textbf{GEPAC – Grupo de Estudos (2019–2021)} — Co-fundador de grupo interdisciplinar de programação científica; desenvolvimento de algoritmos para simulação e análise de dados em Python (NumPy).
+
+\subsection*{Análise de Fundos de Investimento via Grafos de Visibilidade e Aprendizado de Máquina (TCC)}
+\textit{USP – Instituto de Física de São Carlos}
+
+\begin{itemize}
+    \item Desenvolvimento de um pipeline completo para modelagem de séries temporais financeiras utilizando \textbf{Visibility Graphs} para transformar séries em estruturas topológicas analisáveis.
+    \item Extração de métricas estruturais de grafos (grau, densidade, clustering, conectividade) para composição do vetor de features.
+    \item Construção automática de vetores de features e preparação de dataset tabular para modelagem supervisionada.
+    \item Treinamento de modelos (\textbf{Random Forest Regressor}) com validação cruzada, análise de importância de variáveis e otimização de hiperparâmetros.
+    \item Análise da relação entre as propriedades estruturais dos grafos e o comportamento real dos fundos, gerando insights interpretáveis a partir de métricas topológicas.
+\end{itemize}
+\textbf{Tecnologias:} Python, Pandas, NumPy, Scikit-learn, NetworkX, Matplotlib.
+
+
+\subsection*{Kenshi Translator Toolkit — Biblioteca Python publicada no PyPI (2025)}
+\textit{Projeto independente}
+\begin{itemize}
+    \item Engenharia reversa completa do formato binário \textbf{.mod} do jogo Kenshi, criando um parser estruturado para leitura e extração de registros, metadados e diálogos.
+    \item Implementação de um \textbf{encoder binário} capaz de reconstruir arquivos válidos, incluindo flags, referências, instâncias e manipulação segura de padrões textuais (WordSwap).
+    \item Projeto modular com \textbf{arquitetura limpa} (domínio/infraestrutura), empacotamento e publicação no \textbf{PyPI}.
+    \item Biblioteca ativa com usuários externos e distribuição via PyPI (instalação \texttt{pip}).
+\end{itemize}
+
+\textbf{Repositório:} \href{https://github.com/AlexPrestes/kenshi-translator-toolkit}{github.com/AlexPrestes/kenshi-translator-toolkit} \\
+\textbf{PyPI:} \href{https://pypi.org/project/kenshi-translator-toolkit/}{pypi.org/project/kenshi-translator-toolkit} \\
+\textbf{Tecnologias:} Python, struct, dataclasses, parsing binário, arquitetura modular, PyPI packaging.
+
+\subsection*{GEPAC – Grupo de Estudos em Programação Científica (2019–2021)}
+\textit{USP – Instituto de Física de São Carlos}
+
+\begin{itemize}
+    \item Co-fundador do grupo; apresentei projetos técnicos em sala de aula, incluindo:
+        \href{https://gepac.github.io/2019-10-09-juliaLang/}{Quem é Julia?} (computação científica de alto desempenho)  
+        e  
+        \href{https://gepac.github.io/2019-08-21-projeto-membranas/}{Oscilações em Membranas} (simulação numérica da equação de ondas).
+    \item Instrutor de Python científico utilizando material do \textbf{Grupy-Sanca},
+          do qual também fui \href{https://python-sanca.github.io/curso-python/epilogue.html#contribuidores}{contribuidor}.
+    \item Desenvolvimento de materiais públicos e projetos de simulação, publicados em:
+          \href{https://gepac.github.io}{gepac.github.io}.
+\end{itemize}
+
+\textbf{Tecnologias:} Python, NumPy, SciPy, Matplotlib, Julia, simulação numérica.
 
 % --- Competências Técnicas ---
 \section*{Competências Técnicas}
 \begin{itemize}
-    \item \textbf{Linguagens}: Python (Pandas, NumPy, Scikit-learn, PyTorch), SQL, VBA
-    \item \textbf{Ferramentas}: SAP Business One, Power BI, Excel, Git
-    \item \textbf{Machine Learning}: classificação, regressão, clustering, séries temporais, feature engineering, validação de modelos
-    \item \textbf{Estatística}: análise exploratória de dados (EDA), testes de hipóteses, regressão linear
-    \item \textbf{Dados}: automação de processos, integração de sistemas, qualidade e governança de dados
-    \item \textbf{Visualização}: Power BI, matplotlib, relatórios interativos
+
+    \item \textbf{Machine Learning e Estatística}: modelagem supervisionada e não supervisionada, séries temporais, feature engineering, validação cruzada.
+    \item \textbf{Grafos e Computação Científica}: Visibility Graphs, métricas topológicas, simulações numéricas (PDEs), Julia.
+    \item \textbf{Linguagens e Bibliotecas}: Python (Pandas, NumPy, Scikit-learn, NetworkX, PyTorch), SQL, VBA, Shell Script.
+    \item \textbf{Engenharia de Dados e DevOps}: automação de pipelines, Git, Docker, Docker Compose, GitHub Actions, publicação em PyPI.
+    \item \textbf{Visualização e BI}: matplotlib, Power BI.
+
 \end{itemize}
 
 \end{document}
