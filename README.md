@@ -12,52 +12,56 @@
 
 ---
 
-## 👋 Olá!
+## 👋 Sobre mim
 
-Sou **Machine Learning Engineer (Jr)** e **Cientista de Dados**, com formação em **Física (USP)** e MBA em **Data Science & Analytics (USP/ESALQ, em andamento)**.
+Sou **Machine Learning Engineer** com foco em **computação científica**, otimização de performance em Python e construção de pipelines escaláveis.  
+Formado em **Física (USP)** e cursando MBA em **Data Science & Analytics (USP/ESALQ)**.
 
-Atuo no desenvolvimento de soluções de dados de ponta a ponta —  
-desde a engenharia e preparação até **modelagem estatística, ML** e **automação de pipelines**.  
+Atuo na interseção entre **engenharia**, **modelagem matemática** e **alto desempenho**, com ênfase em:
 
-Também possuo forte base em **computação científica**, grafos, parsing binário e engenharia de software em Python.
+- pipelines sólidos e reprodutíveis  
+- vetorização, matrizes esparsas e otimizações avançadas  
+- grafos e análise estrutural  
+- engenharia de software aplicada a ML  
 
 ---
 
-## 🚀 Competências
+## 🚀 Competências Técnicas
 
-**Machine Learning:**  
-Classificação, regressão, séries temporais, Feature Engineering, validação cruzada, métricas.
+**Machine Learning & Modelagem:**  
+Classificação, regressão, séries temporais, engenharia de atributos, validação cruzada, testes estatísticos.
 
-**Python & Engenharia de Software:**  
-Pandas, NumPy, Scikit-learn, PyTorch, NetworkX, struct, dataclasses, modularidade, CLI tools.
+**Python & Performance:**  
+Pandas, NumPy, SciPy, Scikit-learn, NetworkX, álgebra linear esparsa, profiling e otimização vetorial.
 
 **Dados & Automação:**  
-SQL, Power BI, Excel/VBA, Shell Script, integração de sistemas (SAP B1).
+SQL, Power BI, Excel/VBA, Shell Script, integrações com ERP (SAP B1).
 
 **DevOps & Infra:**  
-Git, Docker, Docker Compose, GitHub Actions, publicação em PyPI.
+Git, Docker, GitHub Actions, publicação em PyPI.
 
 **Computação Científica:**  
-Simulações numéricas (PDEs), grafos, Julia, paralelismo, algoritmos.
+Simulações numéricas, algoritmos em grafos, Julia, análise estrutural.
 
 ---
 
 ## 📌 Projetos em Destaque
 
 ### 🔹 [Kenshi Translator Toolkit (2025)](https://github.com/AlexPrestes/kenshi-translator-toolkit)
-Biblioteca Python publicada no **PyPI** para leitura, edição e reconstrução de arquivos `.mod` (engine do jogo Kenshi).  
-Trabalha com **parsing binário, encoder/decoder estruturado, arquitetura limpa e empacotamento**.
+Biblioteca Python publicada no **PyPI** para leitura, manipulação e reconstrução de arquivos binários `.mod`.  
+Foco em **parsing estruturado**, encoder binário, arquitetura limpa e empacotamento profissional.
 
-### 🔹 [GACO – Ant Colony Optimization](https://github.com/AlexPrestes/gaco)
-Algoritmo de **otimização via colônia de formigas**, com foco em paralelização e simulação de cenários logísticos.
+### 🔹 [Visibility Graphs — Financial Time Series (TCC | USP)](https://github.com/AlexPrestes/financial-visibility-graphs)
+Transformação de séries financeiras em grafos de visibilidade, extração de métricas topológicas e modelagem com ML.
 
-### 🔹 [ForgeFlux (em desenvolvimento)](https://github.com/AlexPrestes/forgeflux)
-Framework de **pipelines modulares** baseado em plugins, com estruturas fortemente tipadas e foco em escalabilidade.
+### 🔹 [GEPAC — Programação Científica](https://github.com/gepac)
+Materiais, simulações e projetos públicos sobre computação científica, Python e Julia.
 
 ---
 
-## 📚 Sobre mim
-Apaixonado por **modelos matemáticos**, **séries temporais**, **grafos**, **otimização** e **engenharia de software**.  
-Gosto de construir soluções claras, modulares e interpretáveis — sempre unindo computação científica, estatística e ML.
+## 📚 Interesses
 
-Se quiser trocar ideias sobre ciência, dados ou algoritmos, me chame! 🚀
+Computação científica, algoritmos em grafos, otimização, desempenho em Python, modelagem matemática e engenharia de ML.
+
+Se quiser conversar sobre dados, ciência ou algoritmos, será um prazer! 🚀
+
